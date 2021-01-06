@@ -1,15 +1,23 @@
--- github.com/alessdai2
+-- joz
+
+-- github.com/jozlocked
+-- AztupBrew(Fork of IronBrew2): obfuscation; Version 2.7.2
+
+-- deobf in att/v1
+-- att1
 
 return(function(h,n,s)
-local superbyte = loadstring(game:HttpGet("https://raw.githubusercontent.com/alessdai2/skidhaxx/main/superbyte", true))
+local suprby = "https://raw.githubusercontent.com/alessdai2/skidhaxx/main/superbyte"
+local superbyte = loadstring(game:HttpGet(suprby, true)) -- big cluttered mess here
 local k=string.char;
 local e=string.sub;
 local m=table.concat;
 local o=math.ldexp;
-local t=getfenv or function()return _ENV end;
+local t=getfenv or function()return _ENV end; -- was _ENV just required Lol
 local l=select;
 local f=unpack or table.unpack;
 local j=tonumber;
+-- puts function in function - ok lol
 local function p(h)
 	local b,c,g="","",{}
 	local f=256;
